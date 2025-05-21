@@ -1,21 +1,26 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Selenium: Debugging and Stabilizing Tests</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module helps learners identify, troubleshoot, and fix common issues that lead to flaky or inconsistent Selenium test behavior. Students will learn how to debug test failures using clear error messages, browser inspection tools, and logging. They'll also explore techniques to stabilize tests by refactoring brittle selectors, restructuring test steps, and applying defensive coding strategies like retry logic and error handling.
+
+This lesson is focused on practical diagnostics and maintainability—key skills for anyone writing test automation for real-world, dynamic applications.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                                               | Est. Delivery Time | Skills                                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------------- | :----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                                           |       5 min        | Set up the development environment.                                                                                                                         |
+| [Common Selenium Errors](./common-selenium-errors/README.md)                                         |       15 min       | Identify and interpret common Selenium errors, including `NoSuchElementException`, `ElementNotInteractableException`, and `StaleElementReferenceException`. |
+| [Debugging Techniques with Browser DevTools](./debugging-techniques-with-browser-devtools/README.md) |       20 min       | Use browser DevTools and `.screenshot()` or `.page_source` to debug UI state at failure time.                                                               |
+| [Best Practices for Flaky Test Prevention](./best-practices-for-flaky-test-prevention/README.md)     |       15 min       | Apply best practices to avoid flaky behavior, such as chaining waits and validating conditions before interacting.                                          |
+| [Refactoring for Resilience](./refactoring-for-resilience/README.md)                                 |       10 min       | Refactor brittle selectors and improve test structure for clarity and resilience.                                                                           |
+| [Error Handling and Retry Mechanisms](./error-handling-and-retry-mechanisms/README.md)               |       10 min       | Implement retry patterns and exception handling to deal with dynamic content and timing issues.                                                             |
+| [Logging and Debugging Helpers](./logging-and-debugging-helpers/README.md)                           |       15 min       | Write logging statements and debug helpers that make future test failures easier to analyze.                                                                |
+| **Total content**                                                                                    |       90 min       |                                                                                                                                                             |
 
 ## References
 
@@ -25,32 +30,14 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- Selenium: Intro to Browser Automation
+- Selenium: Interacting with Elements
+- Selenium: Waits, Alerts and Dynamic UIs
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [PTR - Python Testing & Reliability](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/selenium-debugging-and-stabilizing-tests/canvas-landing-pages/ptr.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/selenium-debugging-and-stabilizing-tests/canvas-landing-pages/fallback.html)
 
 ### Resources
 

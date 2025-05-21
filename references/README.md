@@ -1,10 +1,8 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Selenium: Debugging and Stabilizing Tests</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Selenium Docs](https://www.selenium.dev/)

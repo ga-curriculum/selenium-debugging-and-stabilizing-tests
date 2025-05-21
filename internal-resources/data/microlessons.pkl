@@ -9,23 +9,45 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+commonSeleniumErrors = new Template.Microlesson {
+  friendlyName = "Common Selenium Errors"
+  dirName = "common-selenium-errors"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+debuggingTechniquesWithBrowserDevtools = new Template.Microlesson {
+  friendlyName = "Debugging Techniques with Browser DevTools"
+  dirName = "debugging-techniques-with-browser-devtools"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+bestPracticesForFlakyTestPrevention = new Template.Microlesson {
+  friendlyName = "Best Practices for Flaky Test Prevention"
+  dirName = "best-practices-for-flaky-test-prevention"
   type = "Content"
   videoUrl = ""
 }
+
+refactoringForResilience = new Template.Microlesson {
+  friendlyName = "Refactoring for Resilience"
+  dirName = "refactoring-for-resilience"
+  type = "Content"
+  videoUrl = ""
+}
+
+errorHandlingAndRetryMechanisms = new Template.Microlesson {
+  friendlyName = "Error Handling and Retry Mechanisms"
+  dirName = "error-handling-and-retry-mechanisms"
+  type = "Content"
+  videoUrl = ""
+}
+
+loggingAndDebuggingHelpers = new Template.Microlesson {
+  friendlyName = "Logging and Debugging Helpers"
+  dirName = "logging-and-debugging-helpers"
+  type = "Content"
+  videoUrl = ""
+}
+

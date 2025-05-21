@@ -1,11 +1,9 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Selenium: Debugging and Stabilizing Tests</span>
   <span class="subhead">Release Notes</span>
 </h1>
 
-## Version 1.0 - Updates from legacy content
-
-This release modularizes the legacy [tktk previous lecture name] lecture and provides some other minor updates detailed below. Updates are provided here at the module level, but all subsequent updates should be documented at the lesson level.
+## Version 1.0 - This is new content.
 
 ### Release details
 

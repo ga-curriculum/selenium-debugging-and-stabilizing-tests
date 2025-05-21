@@ -12,25 +12,39 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Selenium: Debugging and Stabilizing Tests"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "selenium-debugging-and-stabilizing-tests"
   type = "Lesson"
 }
 
 courses {
+  new {
+    name = "ptr"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.commonSeleniumErrors
+      mls.debuggingTechniquesWithBrowserDevtools
+      mls.bestPracticesForFlakyTestPrevention
+      mls.refactoringForResilience
+      mls.errorHandlingAndRetryMechanisms
+      mls.loggingAndDebuggingHelpers
+    }
+  }
   new {
     // Do not remove this fallback course!
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
-      mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+      mls.commonSeleniumErrors
+      mls.debuggingTechniquesWithBrowserDevtools
+      mls.bestPracticesForFlakyTestPrevention
+      mls.refactoringForResilience
+      mls.errorHandlingAndRetryMechanisms
+      mls.loggingAndDebuggingHelpers
     }
   }
 }
+
