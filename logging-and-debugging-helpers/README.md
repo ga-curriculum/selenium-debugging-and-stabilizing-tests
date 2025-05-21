@@ -69,7 +69,7 @@ logging.info("Navigating to login page")
 logging.error("Submit button not found")
 ```
 
-> ✅ This structure makes your logs skimmable and searchable—especially helpful when reviewing CI failures.
+The `%` tokens in your `logging.basicConfig()` format string are placeholders used by Python’s logging module to inject dynamic values into your log messages at runtime.
 
 ## Reusable logging with decorators
 
